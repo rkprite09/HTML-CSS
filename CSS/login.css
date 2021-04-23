@@ -1,0 +1,123 @@
+*{
+	margin:0;
+	padding:0;
+}
+h1, h2,h3{
+	font-family:sans-serif;
+}
+body{
+	background:black;
+}
+div#login-inner {
+    width: 500px;
+    height: auto;
+    background: #181919;
+    border: 1px solid #fefefe;
+    position: relative;
+    margin: auto;
+    padding: 10px 15px;
+}
+div h3#login_title {
+    text-align: center;
+    font-size: 24px;
+    color: #FFFFFC;
+}
+div#title_head {
+    position: relative;
+    border-bottom: 3px solid #F44336;
+    padding: 11px 0px;
+    /* margin: 0 0px; */
+}
+.form_group {
+    margin: 15px 0px;
+}
+label {
+    display: block;
+    /* position: relative; */
+    margin-bottom: 6px;
+    color: white;
+    font-weight: bold;
+}
+label i {
+    padding-right: 5px;
+}
+
+input#inputEmail {
+    display: block;
+    width: 99.2%;
+    padding: 8px 0px;
+    border-radius: 5px;
+}
+input#inputPassword {
+	display: block;
+    width: 99.2%;
+    padding: 8px 0px;
+    border-radius: 5px;
+}
+input#checkBox {
+    width: 3%;
+}
+
+input#checkBox {}
+
+label.checkboxLebel {
+    width: 22%;
+}
+
+form_check_input,label.checkboxLebel {
+    display: inline-block;
+}
+input#login_btn {
+    width: 100%;
+    display: block;
+    padding: 4px 0px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+}
+a#register_btn {
+    width: 100%;
+    display: block;
+    text-decoration: none;
+    background: #FF5722;
+    padding: 11px 0px;
+    border-radius: 5px;
+    margin: 10px 0px;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    font-size: 16px;
+}
+input#login_btn {
+    width: 100%;
+    display: block;
+    padding: 12px 0px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    background: #9C27B0;
+}
+a {}
+
+.login_req {
+    width: 50%;
+    margin-left: 15px;
+	
+}
+#login_req {
+    width: 50%;
+    margin-left: 105px;
+	
+}
+
+.login_req,#login_req {
+    display: inline;
+}
+.login_req a{
+	color:white;
+	text-decoration:none;
+}
+#login_req a{
+	color:white;
+	text-decoration:none;
+}

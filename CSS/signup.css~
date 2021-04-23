@@ -1,0 +1,37 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	font-family:sans-serif,Verdana,Arial,Helvetica;
+	color:#fefefe;
+	background:black;
+}
+div#main-block-signup {
+    width: 300px;
+    border: 1px solid white;
+    margin: auto;
+}
+
+div#signup_title {
+    text-align: center;
+    display: block;
+    padding: 15px 0px;
+    border-bottom: 3px solid #FF5722;
+}
+
+input.form_control {
+    width: 98.2%;
+    padding: 7px 0px;
+    margin-top: 4px;
+    display: block;
+    margin-bottom: 14px;
+    /* margin: auto; */
+}
+div select.form_control {
+    width: 98.2%;
+    padding: 7px 0px;
+    margin-top: 4px;
+    display: block;
+    margin-bottom: 14px;
+}

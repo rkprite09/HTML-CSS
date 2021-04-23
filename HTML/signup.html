@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+	<head>
+		<meta charset="UTF-8">
+			<title>Sign Up Form</title>
+			<link rel="stylesheet" href="../CSS/signup.css" />
+			<script src="https://kit.fontawesome.com/eb855865d3.js" crossorigin="anonymous"></script>
+		</head>
+		<body>
+			<div id="main-block-signup">
+				<div id="signup_title">
+					<h3>Member Sign Up</h3>
+				</div>
+				<form method="post" action="" id="signup_form">
+					<div class="form_group">
+						<label for="exampleInputName"><i class="fas fa-pencil-alt"></i>First Name</label>
+						<input type="text"name="fName" class="form_control" id="fName" maxlength="20" aria_describedby="firstName" placeholder="First Name" required />
+						<div class="form_group">
+							<label for="exampleInputName"><i class="fas fa-pencil-alt"></i>Last Name</label>
+							<input type="text" name="lName" maxlength="20"class="form_control" id="lName" aria_describedby="lastName" placeholder="Last Name" required />
+						</div>
+						<div class="form_group">
+							<label for="exampleInputEmail"><i class="far fa-envelope"></i>Email Address</label>
+							<input type="email" name="input_email" class="form_control" id="input_email" aria_describedby="email" placeholder="Enter Email" required />
+						</div>
+						<div class="form_group">
+							<label for="exampleInputGender"><i class="far fa-user"></i>Gender</label>
+							<select name="gender" class="form_control" id="signUpSelectGender">
+								<option value="Male"  selected >Male</option>
+								<option value="Female"  >Female</option>
+							</select>
+						</div>
+
+						<div class="form-group">
+							<label for="exampleInputPassword1"><i class="fa fa-key"></i> Password</label>
+							<input name="pwd" title="3 characters minimum"  type="password" class="form_control" id="input_password" placeholder="Password" required minlength=6/>
+						</div>
+
+						<div class="form-group">
+							<label for="exampleInputPassword1"><i class="fa fa-phone"></i> Phone </label>
+							<input name="phone"  maxlength="11" type="number" class="form_control" id="phone" placeholder="Example: 017" value="8801"  required/>
+						</div>
+						<div class="form_group">
+							<label for="birthday"><i class="far fa-user"></i>Birthday</label>
+							<input type="date" name="birthday" id="birthday" class="form_control" aria_describedby="birthday" required />
+						</div>
+						<div class="form_group">
+							<input type="submit" value="SIGN UP" class="form_control" id="signUp" />
+						</div>
+					</div>
+				</form>
+			</div>
+		</body>
+	</html>

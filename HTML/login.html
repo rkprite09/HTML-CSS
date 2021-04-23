@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+	<head>
+		<meta charset="UTF-8">
+			<title>SignUp form</title>
+			<link rel="stylesheet" href="../CSS/login.css" />
+			<script src="https://kit.fontawesome.com/eb855865d3.js" crossorigin="anonymous"></script>
+		</head>
+		<body>
+			<div id="login-inner">
+				<div id="title_head">
+					<h3 id="login_title">Log In</h3>
+				</div>
+				<form method="POST" action="">
+					<div class="form_group">
+						<label for="inputEmail"><i class="fas fa-envelope"></i>Email Address</label>
+						<input name="email" type="email" class="form_control" id="inputEmail" placeholder="Enter Email" required />
+					</div>
+					<div class="form_group">
+						<label for="inputPassword"><i class="fas fa-key"></i>Enter Password</label>
+						<input type="password" name="pwd" class="form_control" id="inputPassword" placeholder="Enter Password" required />
+					</div>
+					<div class="form_check">
+						<input type="checkbox" class="form_check_input" id="checkBox" />
+						<label class="checkboxLebel" for="checkBox">Remember  Me</label>
+					</div>
+					<input name="logRequest" type="submit" id="login_btn" class="log_btn" value="LOG IN"/>
+					<a href="#" type="submit" id="register_btn" class="log_btn registerBtn">REGISTER ACCOUNT</a>
+					<div id="login_repeat">
+						<div class="login_req"><a href="#">Need An Account?</a></div>
+						<div id="login_req"><a href="#">Forget Your Password?</a></div>
+					</div>
+
+
+				</form>
+			</div>
+
+		</body>
+	</html>
